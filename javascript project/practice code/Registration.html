@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Welcome to our Survey form</p>
+    <form action="#" id="survey-form">
+        <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter your Email" required></label>
+        <label for="number" id="number-label">Age <input type="number" id="number" min="12" max="40" placeholder="Age"></label>
+        <label for="">Which option best describes your current role? 
+            <select name="" id="dropdown">
+                <option value="" >(select an option)</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+        <fieldset>
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            <label for=""><input type="radio" value="attribute" name="recommend">Definitely</label>
+            <label for=""><input type="radio" value="attribute" name="recommend">Maybe</label>
+            <label for=""><input type="radio" value="attribute"  name="recommend">Not sure</label>
+        </fieldset>
+        <fieldset>
+            <legend>What would you like to see improved? (Check all that apply)</legend>
+             <label for="improved?"><input type="checkbox" name="improved?" class="inline" id="improved?" value="attribute">Front-end Projects</label>
+             <label for="improved?"><input type="checkbox" name="improved?" class="inline" id="improved?" value="attribute">Back-end Projects</label>
+             <label for="improved?"><input type="checkbox" name="improved?" class="inline" id="improved?" value="attribute">Data Visualization</label>
+             <label for="improved?"><input type="checkbox" name="improved?" class="inline" id="improved?" value="attribute">challenges</label>
+             <label for="improved?"><input type="checkbox" name="improved?" class="inline" id="improved?" value="attribute">Open Source Community</label>
+             <label for="improved?"><input type="checkbox" name="improved?" class="inline" id="improved?" value="attribute">Gitter help rooms</label>
+        </fieldset>
+         <label for="bio">Any comments? <textarea name="bio" id="bio" cols="30" rows="3"></textarea></label>  
+            
+    </form>
+    <input type="submit" id="submit">
+</body>
+</html>
